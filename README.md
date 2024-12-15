@@ -10,9 +10,11 @@
 To design a predictor for the solution of the following class of knapsack optimization problems:
 
 
-$$\max \mathbf{c}^T \mathbf{x} | \sum_{i=1}^{n} a_ix_i$$ 
-$$x \in \{0,1\}^{n}$$
+$$\max \mathbf{c}^T \mathbf{x} \Bigg| \quad \sum_{i=1}^{n} a_ix_i \leq b_i, \quad x \in \{0,1\}^{n}$$
 
+$$
+\max \mathbf{c}^T \mathbf{x} \quad \Bigg| \quad \sum_{i=1}^{n} a_i x_i \leq b_i , \quad \mathbf{x} \in \{0,1\}^n
+$$
 
 
  
