@@ -9,16 +9,11 @@
 ## Objective
 To design a predictor for the solution of the following class of knapsack optimization problems:
 
-
-$$\max \mathbf{c}^T \mathbf{x} \Bigg| \quad \sum_{i=1}^{n} a_ix_i \leq b_i, \quad x \in \{0,1\}^{n}$$
-
 $$
-\max \mathbf{c}^T \mathbf{x} \quad \Bigg| \quad \sum_{i=1}^{n} a_i x_i \leq b_i , \quad \mathbf{x} \in \{0,1\}^n
+\max 𝐜^T 𝐱 \quad \Bigg| \quad \sum_{i=1}^{n} a_i x_i \leq b, \quad 𝐱 \in \\{0,1\\}^n
 $$
-
-
- 
- 
 
 ## Table of Content
+- Creating Dummy Datasets
+- Feature Selection
 
