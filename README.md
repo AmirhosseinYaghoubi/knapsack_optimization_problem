@@ -12,7 +12,7 @@ $$
 \max 𝐜^T 𝐱 \quad \Bigg| \quad \sum_{i=1}^{n} a_i x_i \leq b_j, \quad  \text{for all} \quad 1 \leq j \leq m, \quad 𝐱 \in \\{0,1\\}^n 
 $$
 
-
+There are many MKDP versions, which you can look at [Cacchiani et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S0305054821003889?fr=RR-2&ref=pdf_download&rr=8f408a5f8eebab0c).
 ## Objective
 To design a predictor for solving the following class of knapsack optimization problems, Dynamic Multidimensional Knapsack Problem (DMKP), using methods other than commercial solvers:
 
@@ -29,12 +29,17 @@ Python, Random Forest (RF), XGBoost, Neural Network (NN), Naive Bayesian (NB), a
 - Feature Selection
 - ML Algorithms
 - Performance Comparison
+- References (references)
 
 ## Datasets:
-I used the following datasets in training the model 
+I used the dataset described in the work of [Skackauskas and Kalganova (2022)](https://www.sciencedirect.com/science/article/pii/S2772941922000072#section-cited-by). The raw datasets are accessible from the authors' [GitHub page](https://github.com/jonasska/Dynamic-MKP-Benchmark-Datasets) or [this forked page](https://github.com/AmirhosseinYaghoubi/Dynamic-MKP-Benchmark-Datasets).
 
 
-The 
+## Feature Selection
 
-## Creating a Dummy Dataset 
-The dummy dataset is for 10,000 problems, where the size of each problem (number of variables) is from $$1$$ to $$30$$. The following algorithm can create
+
+
+## References
+Cacchiani, V., Iori, M., Locatelli, A. and Martello, S., 2022. Knapsack problems—An overview of recent advances. Part II: Multiple, multidimensional, and quadratic knapsack problems. Computers & Operations Research, 143, p.105693.
+
+Skackauskas, Jonas, and Tatiana Kalganova. "Dynamic Multidimensional Knapsack Problem benchmark datasets." Systems and Soft Computing 4 (2022): 200041.
